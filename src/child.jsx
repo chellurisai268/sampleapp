@@ -10,7 +10,7 @@ function Child(props){
     return(
         
         <div className="border border-2 border-success p-2 m-2">
-            <h1>child:{props.x},{a.details.firstname}</h1>
+            <h1>child:{props.x},{a}</h1>
             <button onClick={()=>{def()}}>call back</button>
             <button class="btn btn-success" onClick={()=>{props.y()}}>call xyz</button>
             <GrandChild></GrandChild>
